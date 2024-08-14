@@ -122,5 +122,4 @@ The solutions are $x \in [-1, 5]$.
 - **Set-Builder Form:** $S = \\{x \mid -1 \leq x \leq 5\\}$
 
 
-
 # in progress
