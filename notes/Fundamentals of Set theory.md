@@ -138,33 +138,33 @@ Certainly! Here's the text with the correct LaTeX formatting and escape characte
 
 ### 4.3 Singleton Set
 A **singleton set** is a set that contains exactly one element.  
-**Example**: $\( F = \{ 7 \} \)$ is a singleton set, as it contains only one element, 7.
+**Example**: $F = \\{ 7 \\}$ is a singleton set, as it contains only one element, 7.
 
 ### 4.4 Subsets and Proper Subsets
-- **Subset**: A set $\( A \)$ is a subset of a set $\( B \)$ if every element of $\( A \)$ is also an element of $\( B \)$. This is denoted as $\( A \subseteq B \)$.  
-  **Example**: If $\( A = \{1, 2\} \)$ and $\( B = \{1, 2, 3\} \)$, then $\( A \subseteq B \)$.
+- **Subset**: A set $A$ is a subset of a set $B$ if every element of $A$ is also an element of $B$. This is denoted as $A \subseteq B$.  
+  **Example**: If $A = \\{1, 2\\}$ and $B = \\{1, 2, 3\\}$, then $A \subseteq B$.
   
-- **Proper Subset**: A set $\( A \)$ is a proper subset of a set $\( B \)$ if $\( A \subseteq B \)$ and $\( A \neq B \)$. This is denoted as $\( A \subset B \)$.  
-  **Example**: If $\( A = \{1, 2\} \)$ and $\( B = \{1, 2, 3\} \)$, then $\( A \subset B \)$ is a proper subset of $\( B \)$.
+- **Proper Subset**: A set $A$ is a proper subset of a set $B$ if $A \subseteq B$ and $A \neq B$. This is denoted as $A \subset B$.  
+  **Example**: If $A = \\{1, 2\\}$ and $B = \\{1, 2, 3\\}$, then $A \subset B$ is a proper subset of $B$.
 
 ### 4.5 Power Set
-The **power set** of a set $\( S \)$ is the set of all possible subsets of $\( S \)$, including the empty set and $\( S \)$ itself. It is denoted by $\( P(S) \)$.  
-**Example**: If $\( S = \{a, b\} \)$, then the power set $\( P(S) = \{\emptyset, \{a\}, \{b\}, \{a, b\}\} \)$.
+The **power set** of a set $S$ is the set of all possible subsets of $S$, including the empty set and $S$ itself. It is denoted by $P(S)$.  
+**Example**: If $S =\\{a, b \\}$, then the power set $P(S) =\\{\emptyset,\\{a\\}, \\{b\\}, \\{a, b\\}\\}$.
 
 ### 4.6 Universal Set
-A **universal set** is the set that contains all the objects or elements under consideration, typically denoted by $\( U \)$.  
-**Example**: If we are considering the set of all natural numbers, then the universal set $\( U \)$ would be the set of all natural numbers.
+A **universal set** is the set that contains all the objects or elements under consideration, typically denoted by $U$.  
+**Example**: If we are considering the set of all natural numbers, then the universal set $U$ would be the set of all natural numbers.
 
 ### 4.7 Empty Set (Null Set)
-The **empty set** (or null set) is a set that contains no elements. It is denoted by $\( \emptyset \)$ or $\( \{\} \)$.  
-**Example**: The set $\( G = \{x \mid x > 5 \text{ and } x < 4\} \)$ is an empty set because there is no number that satisfies both conditions.
+The **empty set** (or null set) is a set that contains no elements. It is denoted by $\emptyset$ or $\\{\\}$.  
+**Example**: The set $G = \\{x \mid x > 5$ and $ x < 4\\}$ is an empty set because there is no number that satisfies both conditions.
 
 ## 5. Equal Sets
 Two sets are said to be **equal** if they contain exactly the same elements.  
-**Example**: If $\( H = \{1, 2, 3\} \)$ and $\( I = \{3, 2, 1\} \)$, then $\( H \)$ and $\( I \)$ are equal sets, i.e., $\( H = I \)$.
+**Example**: If $H = \\{1, 2, 3\\}$ and $I = \\{3, 2, 1\\}$, then $H$ and $I$ are equal sets, i.e., $H = I$.
 
 ## 6. Equivalent Sets
 Two sets are **equivalent** if they have the same number of elements, but not necessarily the same elements.  
-**Example**: If $\( J = \{a, b, c\} \)$ and $\( K = \{1, 2, 3\} \)$, then $\( J \)$ and $\( K \)$ are equivalent sets because they both contain three elements.
+**Example**: If $J = \\{a, b, c\\}$ and $K = \\{1, 2, 3\\}$, then $J$ and $K$ are equivalent sets because they both contain three elements.
 
 # in progress
