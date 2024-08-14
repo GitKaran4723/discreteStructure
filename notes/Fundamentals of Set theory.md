@@ -69,6 +69,9 @@ $$
 \implies x ( x - 2 ) - 3 ( x - 2 ) = 0
 $$
 
+$$
+\implies  ( x - 2 ) ( x - 3 ) = 0
+$$
 
 Now, we solve for $\(x\)$ by setting each factor equal to zero:
 $$
@@ -119,5 +122,4 @@ The solutions are $x \in [-1, 5]$.
 - **Set-Builder Form:** $S = \\{x \mid -1 \leq x \leq 5\\}$
 
 
-### Summary
-This covers the basics of set definitions, notations, different representations of sets, and examples involving quadratic equations using set-builder notation. Set theory is fundamental in various areas of mathematics and understanding these basics will help in solving more complex problems.
+# in progress
