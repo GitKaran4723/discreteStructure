@@ -122,4 +122,15 @@ The solutions are $x \in [-1, 5]$.
 - **Set-Builder Form:** $S = \\{x \mid -1 \leq x \leq 5\\}$
 
 
+$$
+\[
+\begin{matrix}
+a & b & c \\
+d & e & f \\
+g & h & i
+\end{matrix}
+\]
+$$
+
+
 # in progress
