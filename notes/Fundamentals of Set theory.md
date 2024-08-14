@@ -28,8 +28,8 @@ In the **roster form** (also called the **tabular form**), all the elements of t
 In the **set-builder form**, a set is defined by a property that its members must satisfy, rather than by listing the elements.
 
 #### Examples:
-- The set of all $x$ such that $x$ is a positive even number less than 10: $E = \\{x \mid x \text{ is an even number and } 0 < x < 10\\}$
-- The set of all $x$ such that $x$ is a prime number less than 10: $P = \\{x \mid x \text{ is a prime number and } x < 10\\}$
+- The set of all $x$ such that $x$ is a positive even number less than 10: $E = \\{x \mid x $ is an even number and  0 < x < 10 $\\}$
+- The set of all $x$ such that $x$ is a prime number less than 10: $P = \\{x \mid x $ is a prime number and $ x < 10\\}$
 
 ## 3. Solving Examples with Set-Builder Form
 
@@ -50,11 +50,11 @@ So, the solutions are $x = 2$ and $x = 3$.
 
 ### Explanation:
 
-To solve the quadratic equation, we first attempt to factor it. We look for two numbers that multiply to give the constant term $\(6\)$ (the last term in the equation) and add up to give \(-5\) (the coefficient of the middle term).
+To solve the quadratic equation, we first attempt to factor it. We look for two numbers that multiply to give the constant term $\(6\)$ (the last term in the equation) and add up to give $\(-5\)$ (the coefficient of the middle term).
 
 The factors of $\(6\)$ are $\(1 \times 6\)$ and $\(2 \times 3\)$. We need the factors to sum to $\(-5\)$, so we choose $\(-2\)$ and $\(-3\)$ since:
-- $(-2) + (-3) = -5$
-- $(-2) \times (-3) = 6$
+$(-2) + (-3) = -5$
+$(-2) \times (-3) = 6$
 
 Thus, we can write the equation as:
 $$
@@ -120,6 +120,25 @@ The solutions are $x \in [-1, 5]$.
 
 - **Roster Form:** Since it's a continuous interval, we do not use roster form here.
 - **Set-Builder Form:** $S = \\{x \mid -1 \leq x \leq 5\\}$
+
+## 4. Types of Sets
+### 4.1 Finite set
+### 4.2 Finite set
+### 4.3 Finite set
+### 4.4 Finite set
+### 4.5 Finite set
+### 4.6 Finite set
+
+
+
+
+
+
+
+
+
+
+
 
 
 # in progress
