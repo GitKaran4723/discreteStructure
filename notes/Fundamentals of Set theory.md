@@ -12,8 +12,8 @@ A **set** is a well-defined collection of distinct objects, considered as an obj
 
 ### Examples of Sets:
 - The set of natural numbers: $\mathbb{N} = \\{1, 2, 3, 4, \dots\\}$
-- The set of vowels in the English alphabet: $V = \\{a, e, i, o, u\\}$
-- The set of solutions to the equation $x^2 - 4 = 0$: $S = \\{-2, 2\\}$
+- The set of vowels in the English alphabet: $V = \\{a, e, i, o, u \\}$
+- The set of solutions to the equation $x^2 - 4 = 0$ : $S = \\{-2, 2 \\}$
 
 ## 2. Types of Representations of a Set
 
