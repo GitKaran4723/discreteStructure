@@ -14,7 +14,7 @@
             tex: {
                 inlineMath: [['$', '$'], ['\\(', '\\)']],
                 displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                processEscapes: true,  // Allow escaping special characters
+                processEscapes: true,
             },
             svg: {
                 fontCache: 'global'
@@ -22,11 +22,249 @@
         };
     </script>
     <script src="js/predefined/latex.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0056b3;
+        }
+
+        #syllabus {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #444;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+        }
+
+        .collapsible {
+            background-color: #0056b3;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            text-align: left;
+            outline: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .collapsible:hover {
+            background-color: #003d80;
+        }
+
+        .content {
+            padding: 15px;
+            display: none;
+            overflow: hidden;
+            border-left: 4px solid #0056b3;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 4px solid #0056b3;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+            display: none;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .markdown-content {
+            margin-top: 15px;
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            #syllabus {
+                padding: 15px;
+            }
+
+            .collapsible {
+                font-size: 1em;
+                padding: 8px;
+            }
+
+            .content {
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div id="content"></div>
+    <h1>Discrete Structure - BU</h1>
+    <div id="syllabus"></div>
 
     <script>
+        const syllabus = {
+            "UNIT I": [
+                "Fundamentals of Set theory",
+                "Set Operations",
+                "Laws of Set Theory",
+                "Counting and Venn Diagrams",
+                "Cartesian Product",
+                "Relations",
+                "Types of Relations",
+                "Functions",
+                "Types of Functions",
+                "Function Composition",
+                "Inverse Functions",
+                "Mathematical Induction"
+            ],
+            "UNIT II": [
+                "Fundamentals of Logic",
+                "Propositional Logic",
+                "Logical Connectives and Truth Tables",
+                "Logic Equivalence",
+                "Tautology and Contradiction",
+                "Basics of counting",
+                "Counting Principles",
+                "Pigeonhole Principle",
+                "Permutation",
+                "Combinations"
+            ],
+            "UNIT III": [
+                "Basics of Matrix",
+                "Types of Matrices",
+                "Operations on Matrices",
+                "Inverse of a matrix",
+                "Solution for system of linear equations",
+                "Determinant",
+                "Properties of Determinant",
+                "Cramer’s Rule",
+                "Introduction to Eigen Values and Eigen Vectors"
+            ],
+            "UNIT IV": [
+                "Graphs: Introduction",
+                "Representing Graphs",
+                "Operations on graphs",
+                "Directed Graphs Graph Isomorphism",
+                "Paths, Cycles, Euler Graph, Hamilton Graph",
+                "Planar Graphs",
+                "Trees: Introduction",
+                "Applications of Trees",
+                "Spanning Trees",
+                "Minimum Spanning Trees",
+                "Prim’s and Kruskul’s Algorithms"
+            ]
+        };
+
+        function createSyllabus() {
+            const container = document.getElementById('syllabus');
+
+            for (const unit in syllabus) {
+                // Create unit header
+                const unitHeader = document.createElement('h2');
+                unitHeader.textContent = unit;
+                container.appendChild(unitHeader);
+
+                // Create collapsible items for each concept
+                syllabus[unit].forEach(concept => {
+                    const collapsible = document.createElement('button');
+                    collapsible.className = 'collapsible';
+                    collapsible.textContent = concept;
+                    collapsible.addEventListener('click', toggleContent);
+                    container.appendChild(collapsible);
+
+                    const content = document.createElement('div');
+                    content.className = 'content';
+
+                    const spinner = document.createElement('div');
+                    spinner.className = 'spinner';
+
+                    const markdownContent = document.createElement('div');
+                    markdownContent.className = 'markdown-content';
+
+                    content.appendChild(spinner);
+                    content.appendChild(markdownContent);
+                    container.appendChild(content);
+                });
+            }
+        }
+
+        function toggleContent(event) {
+            const collapsible = event.currentTarget;
+            const content = collapsible.nextElementSibling;
+            const spinner = content.querySelector('.spinner');
+            const markdownContent = content.querySelector('.markdown-content');
+
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                const allContents = document.querySelectorAll('.content');
+                allContents.forEach(el => el.style.display = 'none');
+
+                content.style.display = 'block';
+                if (!markdownContent.innerHTML) {
+                    loadMarkdown(collapsible.textContent, spinner, markdownContent);
+                }
+            }
+        }
+
+        async function loadMarkdown(concept, spinner, markdownContent) {
+            spinner.style.display = 'block';
+            markdownContent.innerHTML = ''; // Clear any previous content
+            try {
+                const url = `https://raw.githubusercontent.com/GitKaran4723/discreteStructure/main/notes/${concept.replace(/ /g, '')}.md`;
+                const response = await fetch(url);
+
+                if (response.status === 404) {
+                    markdownContent.innerHTML = "<p>Coming Soon</p>";
+                } else {
+                    let markdown = await response.text();
+                    markdown = escapeHtml(markdown);  // Escape special characters
+                    const htmlContent = marked.parse(markdown);
+                    markdownContent.innerHTML = htmlContent;
+                    MathJax.typesetPromise();  // Render LaTeX after content is loaded
+                }
+            } catch (error) {
+                console.error('Error loading markdown:', error);
+                markdownContent.innerHTML = "<p>Error loading content. Please try again later.</p>";
+            } finally {
+                spinner.style.display = 'none';
+            }
+        }
+
         // Function to escape special characters
         function escapeHtml(text) {
             return text.replace(/&/g, "&amp;")
@@ -36,22 +274,8 @@
                        .replace(/'/g, "&#039;");
         }
 
-        // Function to fetch and render the markdown file
-        async function loadMarkdown() {
-            try {
-                const response = await fetch('notes/sample.md');
-                let markdown = await response.text();
-                markdown = escapeHtml(markdown);  // Escape special characters
-                const htmlContent = marked.parse(markdown);  // Convert Markdown to HTML
-                document.getElementById('content').innerHTML = htmlContent;
-                MathJax.typesetPromise();  // Render LaTeX after the content is loaded
-            } catch (error) {
-                console.error('Error loading markdown:', error);
-            }
-        }
-
-        // Load the markdown on page load
-        window.onload = loadMarkdown;
+        // Initialize syllabus on page load
+        window.onload = createSyllabus;
     </script>
 </body>
 </html>
