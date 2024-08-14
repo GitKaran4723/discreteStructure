@@ -245,7 +245,7 @@
             spinner.style.display = 'block';
             markdownContent.innerHTML = ''; // Clear any previous content
             try {
-                const url = `https://raw.githubusercontent.com/GitKaran4723/discreteStructure/main/notes/${concept.replace(/ /g, '')}.md`;
+                const url = `https://raw.githubusercontent.com/GitKaran4723/discreteStructure/main/notes/${concept.replace(/ /g, '%20')}.md`;
                 const response = await fetch(url);
 
                 if (response.status === 404) {
