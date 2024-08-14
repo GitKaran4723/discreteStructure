@@ -58,11 +58,15 @@ The factors of $\(6\)$ are $\(1 \times 6\)$ and $\(2 \times 3\)$. We need the fa
 
 Thus, we can write the equation as:
 $$
-x^2 - 5x + 6 = x^2 - 2x - 3x + 6
+x^2 - 5x + 6 = 0
 $$
 
 $$
-x ( x - 2 ) - 3 ( x - 2 ) = (x - 2)(x - 3) = 0
+\implies x^2 - 2x - 3x + 6 = 0
+$$
+
+$$
+\implies x ( x - 2 ) - 3 ( x - 2 ) = 0
 $$
 
 
@@ -78,7 +82,7 @@ $$
 
 ### Verification (Optional):
 
-To verify the solutions, substitute $\(x = 2\)$ and \(x = 3\) back into the original equation:
+To verify the solutions, substitute $\(x = 2\)$ and $\(x = 3\)$ back into the original equation:
 
 For $\(x = 2\)$:
 $$
