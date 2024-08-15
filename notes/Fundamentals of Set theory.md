@@ -239,4 +239,8 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
 
 These symbols form the foundation of set theory, and they are used extensively in mathematics to describe and analyze collections of objects.
 
+## 12. Mind map
+
+[Fundamental Concepts](https://i.ibb.co/q0cNRB6/fundamentals-of-set-theory.png)
+
 --------------------------
