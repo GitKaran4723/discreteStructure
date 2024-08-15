@@ -134,14 +134,13 @@ A set with a **limited** number of elements
 A set with **unlimited or infinite** elements
 **Example** : $E = \\{1, 2, 3, 4, \dots \\}$ is a set of all natural numbers, which is infinte.
 
-Certainly! Here's the text with the correct LaTeX formatting and escape characters:
-
 ### 4.3 Singleton Set
 A **singleton set** is a set that contains exactly one element.  
 **Example**: $F = \\{ 7 \\}$ is a singleton set, as it contains only one element, 7.
 
 ### 4.4 Subsets and Proper Subsets
 - **Subset**: A set $A$ is a subset of a set $B$ if every element of $A$ is also an element of $B$. This is denoted as $A \subseteq B$.  
+- Definition is denoted as if $x \in B$ $\implies$ $x \in A$
   **Example**: If $A = \\{1, 2\\}$ and $B = \\{1, 2, 3\\}$, then $A \subseteq B$.
   
 - **Proper Subset**: A set $A$ is a proper subset of a set $B$ if $A \subseteq B$ and $A \neq B$. This is denoted as $A \subset B$.  
