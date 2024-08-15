@@ -140,7 +140,7 @@ A **singleton set** is a set that contains exactly one element.
 
 ### 4.4 Subsets and Proper Subsets
 - **Subset**: A set $A$ is a subset of a set $B$ if every element of $A$ is also an element of $B$. This is denoted as $A \subseteq B$.  
-- Definition is denoted as if $x \in B$ $\implies$ $x \in A$
+- Definition is denoted as if $x \in B$ $\implies$ $x \in A$.
   **Example**: If $A = \\{1, 2\\}$ and $B = \\{1, 2, 3\\}$, then $A \subseteq B$.
   
 - **Proper Subset**: A set $A$ is a proper subset of a set $B$ if $A \subseteq B$ and $A \neq B$. This is denoted as $A \subset B$.  
