@@ -178,7 +178,7 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
    - Indicates that an object is not an element of a set. For example, `4 ∉ {1, 2, 3}` means 4 is not an element of the set `{1, 2, 3}`.
 
 4. **|**: **Such that**
-   - Used in set builder notation. For example, `{x | x > 0}` means "the set of all x such that x is greater than 0."
+   - Used in set builder notation. For example, `{x | x `>` 0}` means "the set of all x such that x is greater than 0."
 
 5. **∅**: **Empty set**
    - Represents a set with no elements. For example, `∅` or `{}`.
@@ -190,7 +190,7 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
    - **R**: Real numbers (all numbers on the number line)
    - **C**: Complex numbers (numbers that have a real part and an imaginary part)
 
-## Operations on Sets
+## 8. Operations on Sets
 1. **∪**: **Union**
    - The union of two sets is a set containing all elements from both sets. For example, `{1, 2} ∪ {2, 3}` gives `{1, 2, 3}`.
 
@@ -206,7 +206,7 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
 5. **×**: **Cartesian Product**
    - The Cartesian product of two sets is the set of all ordered pairs formed by taking an element from the first set and an element from the second set. For example, `{1, 2} × {3, 4}` gives `{(1, 3), (1, 4), (2, 3), (2, 4)}`.
 
-## Set Relations
+## 9. Set Relations
 1. **⊆**: **Subset**
    - A set \\( A \\) is a subset of \\( B \\) if all elements of \\( A \\) are also in \\( B \\). For example, `{1, 2} ⊆ {1, 2, 3}`.
 
@@ -219,7 +219,7 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
 4. **⊃**: **Proper Superset**
    - A set \\( A \\) is a proper superset of \\( B \\) if \\( A \\) is a superset of \\( B \\) and \\( A \\) is not equal to \\( B \\). For example, `{1, 2, 3} ⊃ {1, 2}`.
 
-## Additional Symbols
+## 10. Additional Symbols
 1. **|A|**: **Cardinality**
    - Represents the number of elements in a set \\( A \\). For example, if \\( A = {1, 2, 3} \\), then \\( |A| = 3 \\).
 
@@ -235,7 +235,7 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
 5. **∖**: **Set Minus**
    - Represents the relative complement of one set in another, i.e., the set of elements in one set but not in the other. For example, if \\( A = {1, 2, 3} \\) and \\( B = {2, 3} \\), then \\( A ∖ B = {1} \\).
 
-## Venn Diagram
+## 11. Venn Diagram
 - A visual representation of the relationships between sets, usually represented by overlapping circles.
 
 These symbols form the foundation of set theory, and they are used extensively in mathematics to describe and analyze collections of objects.
