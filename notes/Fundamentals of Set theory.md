@@ -167,4 +167,4 @@ Two sets are said to be **equal** if they contain exactly the same elements.
 Two sets are **equivalent** if they have the same number of elements, but not necessarily the same elements.  
 **Example**: If $J = \\{a, b, c\\}$ and $K = \\{1, 2, 3\\}$, then $J$ and $K$ are equivalent sets because they both contain three elements.
 
-## Complete
+# *conclude*
