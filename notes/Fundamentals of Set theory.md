@@ -241,6 +241,6 @@ These symbols form the foundation of set theory, and they are used extensively i
 
 ## 12. Mind map
 
-[Fundamental Concepts](https://i.ibb.co/q0cNRB6/fundamentals-of-set-theory.png)
+![Fundamental Concepts](https://i.ibb.co/q0cNRB6/fundamentals-of-set-theory.png)
 
 --------------------------
