@@ -207,32 +207,32 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
 
 ## 9. Set Relations
 1. **⊆**: **Subset**
-   - A set \\( A \\) is a subset of \\( B \\) if all elements of \\( A \\) are also in \\( B \\). For example, `{1, 2} ⊆ {1, 2, 3}`.
+   - A set $ A $ is a subset of $ B $ if all elements of $ A $ are also in $ B $. For example, `{1, 2} ⊆ {1, 2, 3}`.
 
 2. **⊂**: **Proper Subset**
-   - A set \\( A \\) is a proper subset of \\( B \\) if \\( A \\) is a subset of \\( B \\) and \\( A \\) is not equal to \\( B \\). For example, `{1, 2} ⊂ {1, 2, 3}`.
+   - A set $ A $ is a proper subset of $ B $ if $ A $ is a subset of $ B $ and $ A $ is not equal to $ B $. For example, `{1, 2} ⊂ {1, 2, 3}`.
 
 3. **⊇**: **Superset**
-   - A set \\( A \\) is a superset of \\( B \\) if \\( B \\) is a subset of \\( A \\). For example, `{1, 2, 3} ⊇ {1, 2}`.
+   - A set $ A $ is a superset of $ B $ if $ B $ is a subset of $ A $. For example, `{1, 2, 3} ⊇ {1, 2}`.
 
 4. **⊃**: **Proper Superset**
-   - A set \\( A \\) is a proper superset of \\( B \\) if \\( A \\) is a superset of \\( B \\) and \\( A \\) is not equal to \\( B \\). For example, `{1, 2, 3} ⊃ {1, 2}`.
+   - A set $ A $ is a proper superset of $ B $ if $ A $ is a superset of $ B $ and $ A $ is not equal to $ B $. For example, `{1, 2, 3} ⊃ {1, 2}`.
 
 ## 10. Additional Symbols
 1. **|A|**: **Cardinality**
-   - Represents the number of elements in a set \\( A \\). For example, if \\( A = {1, 2, 3} \\), then \\( |A| = 3 \\).
+   - Represents the number of elements in a set $ A $. For example, if $ A = {1, 2, 3} $, then $ |A| = 3 $.
 
 2. **℘(A)**: **Power Set**
-   - The power set of \\( A \\) is the set of all subsets of \\( A \\). For example, if \\( A = {1, 2} \\), then \\( ℘(A) = {∅, {1}, {2}, {1, 2}} \\).
+   - The power set of $ A $ is the set of all subsets of $ A $. For example, if $ A = {1, 2} $, then $ ℘(A) = {∅, {1}, {2}, {1, 2}} $.
 
 3. **∀**: **For all**
-   - Used to denote that something is true for all elements of a set. For example, \\( ∀x ∈ A \\), P(x) indicates that the property P(x) holds for all elements x in the set A.
+   - Used to denote that something is true for all elements of a set. For example, $ ∀x ∈ A $, P(x) indicates that the property P(x) holds for all elements x in the set A.
 
 4. **∃**: **There exists**
-   - Indicates the existence of at least one element in a set for which a property holds. For example, \\( ∃x ∈ A \\), P(x) indicates that there is at least one element x in set A for which the property P(x) is true.
+   - Indicates the existence of at least one element in a set for which a property holds. For example, $ ∃x ∈ A $, P(x) indicates that there is at least one element x in set A for which the property P(x) is true.
 
 5. **∖**: **Set Minus**
-   - Represents the relative complement of one set in another, i.e., the set of elements in one set but not in the other. For example, if \\( A = {1, 2, 3} \\) and \\( B = {2, 3} \\), then \\( A ∖ B = {1} \\).
+   - Represents the relative complement of one set in another, i.e., the set of elements in one set but not in the other. For example, if $ A = {1, 2, 3} $ and $ B = {2, 3} $, then $ A ∖ B = {1} $.
 
 ## 11. Venn Diagram
 - A visual representation of the relationships between sets, usually represented by overlapping circles.
