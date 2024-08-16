@@ -1,2 +1,1 @@
-## Coming Soon
-### Notes for set theory
+## To be updated
