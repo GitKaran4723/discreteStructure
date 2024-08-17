@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,13 +96,18 @@
             display: none;
         }
 
-        img{
+        img {
             width: 90%;
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         .markdown-content {
@@ -135,16 +141,19 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Discrete Structure - By Karan S J</h1>
     <div id="syllabus"></div>
     <a href="https://drive.google.com/file/d/144oq5yTfaJXaYkXd1WsZl8hVs5Vln1ei/view">
-        <img src="https://lh3.googleusercontent.com/d/1iOdYQ98MzRGAts4MRdklggr73e6hXkcf" alt="Book Link" style="width: 10vw;" />
+        <img src="https://lh3.googleusercontent.com/d/1iOdYQ98MzRGAts4MRdklggr73e6hXkcf" alt="Book Link"
+            style="width: 10vw;" />
     </a>
     <a href="https://drive.google.com/file/d/1_RcngQHfR-mldmlo5-MJOO3WwYULuF_J/view">
-        <img src="https://lh3.googleusercontent.com/d/1s_WoM41iarV2Jgba7OWiy1M4s2pat_mU" alt="Book Link" style="width: 10vw;" />
+        <img src="https://lh3.googleusercontent.com/d/1s_WoM41iarV2Jgba7OWiy1M4s2pat_mU" alt="Book Link"
+            style="width: 10vw;" />
     </a>
-    
+
     <script>
         const syllabus = {
             "UNIT I": [
@@ -204,7 +213,7 @@
 
             for (const unit in syllabus) {
                 // Create unit header
-                
+
                 const unitHeader = document.createElement('h2');
                 unitHeader.textContent = unit;
                 container.appendChild(unitHeader);
@@ -235,6 +244,7 @@
 
         function toggleContent(event) {
             const collapsible = event.currentTarget;
+            const unitName = collapsible.parentElement.querySelector('h2').textContent; // Get the unit name from the parent element
             const content = collapsible.nextElementSibling;
             const spinner = content.querySelector('.spinner');
             const markdownContent = content.querySelector('.markdown-content');
@@ -245,18 +255,21 @@
                 const allContents = document.querySelectorAll('.content');
                 allContents.forEach(el => el.style.display = 'none');
 
+                console.log(unitName);  // You can check the unit name in the console
                 content.style.display = 'block';
                 if (!markdownContent.innerHTML) {
-                    loadMarkdown(collapsible.textContent, spinner, markdownContent);
+                    loadMarkdown(collapsible.textContent, unitName, spinner, markdownContent);
                 }
             }
         }
 
-        async function loadMarkdown(concept, spinner, markdownContent) {
+
+        async function loadMarkdown(concept, unitName, spinner, markdownContent) {
             spinner.style.display = 'block';
             markdownContent.innerHTML = ''; // Clear any previous content
             try {
-                const url = `https://raw.githubusercontent.com/GitKaran4723/discreteStructure/main/notes/${concept.replace(/ /g, '%20')}.md`;
+                const url = `https://raw.githubusercontent.com/GitKaran4723/discreteStructure/main/notes/${unitName.replace(/ /g, '%20')}/${concept.replace(/ /g, '%20')}.md`;
+                console.log(url);
                 const response = await fetch(url);
 
                 if (response.status === 404) {
@@ -279,14 +292,15 @@
         // Function to escape special characters
         function escapeHtml(text) {
             return text.replace(/&/g, "&amp;")
-                       .replace(/</g, "&lt;")
-                       .replace(/>/g, "&gt;")
-                       .replace(/"/g, "&quot;")
-                       .replace(/'/g, "&#039;");
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
         }
 
         // Initialize syllabus on page load
         window.onload = createSyllabus;
     </script>
 </body>
+
 </html>
