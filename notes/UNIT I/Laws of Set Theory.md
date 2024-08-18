@@ -4,10 +4,8 @@
    - $\overline{\overline{A}} = A$
 
 2. **De Morgan's Laws**
-<div style="overflow-x: auto; white-space: nowrap;">
    - $\overline{A \cup B} = \overline{A} \cap \overline{B}$
    - $\overline{A \cap B} = \overline{A} \cup \overline{B}$
-</div>
 
 3. **Commutative Laws**
    - $A \cup B = B \cup A$
@@ -18,10 +16,8 @@
    - $A \cap (B \cap C) = (A \cap B) \cap C$
 
 5. **Distributive Laws**
-<div style="overflow-x: auto; white-space: nowrap;">
    - $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
    - $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
-</div>
 
 6. **Idempotent Laws**
    - $A \cup A = A$
@@ -35,7 +31,7 @@
    - $A \cup \overline{A} = U$
    - $A \cap \overline{A} = \emptyset$
 
-9.  **Domination Laws**
+9. **Domination Laws**
    - $A \cup U = U$
    - $A \cap \emptyset = \emptyset$
 
@@ -48,16 +44,13 @@ These laws form the foundation of set theory and are used extensively in various
 ## Examples:
 
 1. Prove **Commutative Laws**
-<div style="overflow-x: auto; white-space: nowrap;">
    - $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
    - $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
-</div>
 
 2. Prove **De Morgan's Laws**  
-<div style="overflow-x: auto; white-space: nowrap;">
    - $\overline{A \cup B} = \overline{A} \cap \overline{B}$
    - $\overline{A \cap B} = \overline{A} \cup \overline{B}$
-</div>
+
 
 
 
