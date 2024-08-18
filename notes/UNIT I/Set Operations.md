@@ -51,7 +51,9 @@ $$A \cap B = \\{2\\}$$
 The symmetric difference between two sets $A$ and $B$ is a set that contains all elements that are in either $A$ or $B$ but not in both. It essentially represents the elements that are unique to each set when compared to each other.
 
 **Mathematical Expression**  
-$A \Delta B = \\{ x \mid (x \in A \text{ or } x \in B) \text{ and } x \notin (A \cap B) \\}$
+<div style="overflow-x: auto; white-space: nowrap;">
+$$A \Delta B = \{ x \mid (x \in A \text{ or } x \in B) \text{ and } x \notin (A \cap B) \}$$
+</div>
 
 **Example**  
 Let $A = \\{1, 2\\}$ and $B = \\{2, 3\\}$. Then the symmetric difference of $A$ and $B$ is:
@@ -102,6 +104,9 @@ These operations are the building blocks of set theory, providing a foundation f
 
 ## Mind Map
 ![image](https://lh3.googleusercontent.com/d/1jj8i8Am41OK5pOpWjOJSLHw6s3pAneF8)
+
+## Exersises
+1. 
 
 ---
 
