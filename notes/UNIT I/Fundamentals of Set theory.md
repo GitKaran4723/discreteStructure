@@ -2,13 +2,13 @@
 
 ## 1. Definition of a Set
 
-A **set** is a well-defined collection of distinct objects, considered as an object in its own right. The objects in a set are called the **elements** or **members** of the set. A set is usually denoted by a capital letter, and its elements are listed within curly braces `{}`.
+A **set** is a well-defined collection of distinct objects. The objects in a set are called the **elements** or **members** of the set. A set is usually denoted by a capital letter, and its elements are listed within curly braces `{}`.
 
 ### Notations for a Set
 
 - **Curly Braces `{}`**: The elements of a set are enclosed within curly braces. For example, the set of natural numbers less than 5 is written as $\\{1, 2, 3, 4\\}$.
-- **Element Symbol `∈`**: If an object is an element of a set, we use the symbol `∈`. For example, $2 ∈ \\{1, 2, 3\\}$ means 2 is an element of the set $\\{1, 2, 3\\}$.
-- **Not an Element Symbol `∉`**: If an object is not an element of a set, we use the symbol `∉`. For example, $4 ∉ \\{1, 2, 3\\}$ means 4 is not an element of the set $\\{1, 2, 3\\}$.
+- **Naming of a set**: A set is Usually denoted by a capital letter `A, B, ...`. For example, $ A = \\{1, 2, 3\\}$ where `A` is considered as a set.
+- **Elements of a set**: While denoting the element of the set we use small letters like `a, b, c, ...`. for example, $ A = //{ x | x is a natural number less than 4 //}$.
 
 ### Examples of Sets:
 - The set of natural numbers: $\mathbb{N} = \\{1, 2, 3, 4, \dots\\}$

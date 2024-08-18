@@ -255,7 +255,7 @@
                 const allContents = document.querySelectorAll('.content');
                 allContents.forEach(el => el.style.display = 'none');
 
-                console.log(unitName);  // You can check the unit name in the console
+                
                 content.style.display = 'block';
                 if (!markdownContent.innerHTML) {
                     loadMarkdown(collapsible.textContent, unitName, spinner, markdownContent);
@@ -269,7 +269,7 @@
             markdownContent.innerHTML = ''; // Clear any previous content
             try {
                 const url = `https://raw.githubusercontent.com/GitKaran4723/discreteStructure/main/notes/${unitName.replace(/ /g, '%20')}/${concept.replace(/ /g, '%20')}.md`;
-                console.log(url);
+                
                 const response = await fetch(url);
 
                 if (response.status === 404) {
