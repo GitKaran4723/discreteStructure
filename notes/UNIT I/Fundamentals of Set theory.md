@@ -220,6 +220,6 @@ These symbols form the foundation of set theory, and they are used extensively i
 
 ## Homework Exersise
 1. List all proper subsets of  `M = {a, b, c}`.
-2. For the universe `U = {1,2,3,4,5}` consider the set `A = {1,2}`. If $B = \\{x | x^2 U\\}$, Then write `B` in Roster form.
+2. For the universe `U = {1,2,3,4,5}` consider the set `A = {1,2}`. If $B = \\{x | x^2 \in U\\}$, Then write `B` in Roster form.
 
 --------------------------
