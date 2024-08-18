@@ -11,8 +11,7 @@
 9. **Formal Verification**: Explore state spaces in system verification. 
 
 ---
-
-![image](https://lh3.googleusercontent.com/d/)
+![image](https://lh3.googleusercontent.com/d/1jj8i8Am41OK5pOpWjOJSLHw6s3pAneF8)
 ***in progress***
 ---
 
