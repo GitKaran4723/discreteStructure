@@ -1,3 +1,3 @@
 ## To be updated
 
-<gold> Hello </gold>
+<gold> This is gold color </gold>
