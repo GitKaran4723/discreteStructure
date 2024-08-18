@@ -1,3 +1,3 @@
 ## To be updated
 
-<red> Hello </red>
+<gold> Hello </gold>

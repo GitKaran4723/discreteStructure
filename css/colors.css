@@ -1,11 +1,143 @@
-.red{
+/* Basic colors */
+.red {
     color: red;
 }
 
-.green{
+.green {
     color: green;
 }
 
-.blue{
+.blue {
     color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
+
+.cyan {
+    color: cyan;
+}
+
+.magenta {
+    color: magenta;
+}
+
+.gray {
+    color: gray;
+}
+
+/* Light shades */
+.light-red {
+    color: lightcoral;
+}
+
+.light-green {
+    color: lightgreen;
+}
+
+.light-blue {
+    color: lightblue;
+}
+
+.light-yellow {
+    color: lightyellow;
+}
+
+.light-orange {
+    color: lightsalmon;
+}
+
+.light-purple {
+    color: lavender;
+}
+
+.light-cyan {
+    color: lightcyan;
+}
+
+.light-magenta {
+    color: thistle;
+}
+
+.light-gray {
+    color: lightgray;
+}
+
+/* Dark shades */
+.dark-red {
+    color: darkred;
+}
+
+.dark-green {
+    color: darkgreen;
+}
+
+.dark-blue {
+    color: darkblue;
+}
+
+.dark-yellow {
+    color: gold;
+}
+
+.dark-orange {
+    color: darkorange;
+}
+
+.dark-purple {
+    color: indigo;
+}
+
+.dark-cyan {
+    color: darkcyan;
+}
+
+.dark-magenta {
+    color: darkmagenta;
+}
+
+.dark-gray {
+    color: darkgray;
+}
+
+/* Additional colors */
+.brown {
+    color: brown;
+}
+
+.teal {
+    color: teal;
+}
+
+.navy {
+    color: navy;
+}
+
+.maroon {
+    color: maroon;
+}
+
+.fuchsia {
+    color: fuchsia;
+}
+
+.silver {
+    color: silver;
+}
+
+.olive {
+    color: olive;
+}
+
+.lime {
+    color: lime;
 }

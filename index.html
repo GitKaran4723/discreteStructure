@@ -299,11 +299,36 @@
                 .replace(/'/g, "&#039;");
         }
 
+        // Function to decode HTML entities
+        function decodeHtmlEntities(text) {
+            const txt = document.createElement("textarea");
+            txt.innerHTML = text;
+            return txt.value;
+        }
+
+        // Function to replace custom tags with HTML
         function putcolors(text) {
             console.log(text); // Log the original text to the console
+
+            // Decode HTML entities
+            text = decodeHtmlEntities(text);
+
+            // Define the mapping of custom tags to classes
+            const classMap = {
+                'red': 'red',
+                'blue': 'blue',
+                'green': 'green'
+                // Add more color mappings as needed
+            };
+
+            // Replace custom tags with span elements with the appropriate class
             return text
-                .replace(/<red>/g, "<span class='red'>") // Replace <red> with <span class='red'>
-                .replace(/<\/red>/g, "</span>");         // Replace </red> with </span>
+                .replace(/<(\w+)>/g, (match, p1) => {
+                    return classMap[p1] ? `<span class='${classMap[p1]}'>` : match;
+                })
+                .replace(/<\/(\w+)>/g, (match, p1) => {
+                    return classMap[p1] ? `</span>` : match;
+                });
         }
 
 
