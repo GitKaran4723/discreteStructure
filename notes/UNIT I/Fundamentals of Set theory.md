@@ -8,7 +8,7 @@ A **set** is a well-defined collection of distinct objects. The objects in a set
 
 - **Curly Braces `{}`**: The elements of a set are enclosed within curly braces. For example, the set of natural numbers less than 5 is written as $\\{1, 2, 3, 4\\}$.
 - **Naming of a set**: A set is Usually denoted by a capital letter `A, B, ...`. For example, $ A = \\{1, 2, 3\\}$ where `A` is considered as a set.
-- **Elements of a set**: While denoting the element of the set we use small letters like `a, b, c, ...`. for example, $ A = \\{ x | x$ is a natural number less than 4 $\\}$.
+- **Elements of a set**: While denoting the element of the set we use small letters like `a, b, c, ...`. for example,  `A = {x | x$ is a natural number less than 4 $}`.
 
 ### Examples of Sets:
 - The set of natural numbers: $\mathbb{N} = \\{1, 2, 3, 4, \dots\\}$
