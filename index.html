@@ -277,6 +277,7 @@
                 } else {
                     let markdown = await response.text();
                     markdown = escapeHtml(markdown);  // Escape special characters
+                    markdown = putcolors(markdown);
                     const htmlContent = marked.parse(markdown);
                     markdownContent.innerHTML = htmlContent;
                     MathJax.typesetPromise();  // Render LaTeX after content is loaded
@@ -296,6 +297,11 @@
                 .replace(/>/g, "&gt;")
                 .replace(/"/g, "&quot;")
                 .replace(/'/g, "&#039;");
+        }
+
+        function putcolors(text){
+            return text.replace('<red>',"<span class='red'>")
+                .replace('</red>',"</span>");
         }
 
         // Initialize syllabus on page load
