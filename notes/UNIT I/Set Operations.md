@@ -28,7 +28,7 @@ Let $A = \\{1, 2\\}$ and $B = \\{2, 3\\}$. Then the union of $A$ and $B$ is:
 $$A \cup B = \\{1, 2, 3\\}$$
 
 **Visual Representation**
-![union of two sets]()
+![union of two sets](https://lh3.googleusercontent.com/d/1Kd89R17a6FAt5DfGimXXw4UbXooa92eA)
 
 ### 2. Intersection (A ∩ B)
 
@@ -43,7 +43,7 @@ Let $A = \\{1, 2\\}$ and $B = \\{2, 3\\}$. Then the intersection of $A$ and $B$ 
 $$A \cap B = \\{2\\}$$
 
 **Visual Representation**
-![intersection of A and B]()
+![intersection of A and B](https://lh3.googleusercontent.com/d/11__DRdGP7Be0-EhiYrodXbJepWl6U9XI)
 
 ### 3. Symmetric Difference (A Δ B)
 
@@ -58,7 +58,7 @@ Let $A = \\{1, 2\\}$ and $B = \\{2, 3\\}$. Then the symmetric difference of $A$ 
 $$A \Delta B = \\{1, 3\\}$$
 
 **Visual Representation**
-![Symmetric Difference of A and B]()
+![Symmetric Difference of A and B](https://lh3.googleusercontent.com/d/18Tct6jglCovLJ0dxFTE_EMbvt3tHa8UH)
 
 ## Example with Three Sets
 
@@ -70,28 +70,28 @@ Given:
 
 **Calculations:**
 - $A \cap B = \\{3, 4, 5\\}$ (common elements in both $A$ and $B$)
-- $A \cup B = \{1, 2, 3, 4, 5, 6, 7\}$ (all elements in either $A$ or $B$ or both)
-- $A \Delta B = \{1, 2, 6, 7\}$ (elements in $A$ or $B$ but not in both)
-- $A \cup C = \{1, 2, 3, 4, 5, 7, 8, 9\}$ (all elements in either $A$ or $C$ or both)
-- $A \Delta C = \{1, 2, 3, 4, 5, 8, 9\}$ (elements in $A$ or $C$ but not in both)
+- $A \cup B = \\{1, 2, 3, 4, 5, 6, 7\\}$ (all elements in either $A$ or $B$ or both)
+- $A \Delta B = \\{1, 2, 6, 7\\}$ (elements in $A$ or $B$ but not in both)
+- $A \cup C = \\{1, 2, 3, 4, 5, 7, 8, 9\\}$ (all elements in either $A$ or $C$ or both)
+- $A \Delta C = \\{1, 2, 3, 4, 5, 8, 9\\}$ (elements in $A$ or $C$ but not in both)
 
-### Complement of a Set
+## Complement of a Set
 
 **Definition**  
 The complement of a set $A$ refers to the set of all elements in the universal set $U $ that are not in $A$. It essentially represents everything outside of $A$ within the context of the universal set.
 
 **Mathematical Expression**  
 If $U$ is the universal set and $A \subseteq U$, then the complement of $A$, denoted by $A'$, is:
-$$A' = \{ x \in U \mid x \notin A \}$$
+$$A' = \\{ x \in U \mid x \notin A \\}$$
 
 **Example**  
-Let the universal set $U = \{1, 2, 3, 4, 5, 6, 7, 8\}$ and $A = \{2, 4, 6\}$ be a subset of $U$. The complement of $A$, denoted by $A'$, is:
-$$A' = \{1, 3, 5, 7, 8\}$$
+Let the universal set $U = \\{1, 2, 3, 4, 5, 6, 7, 8\\}$ and $A = \\{2, 4, 6\\}$ be a subset of $U$. The complement of $A$, denoted by $A'$, is:
+$$A' = \\{1, 3, 5, 7, 8\\}$$
 
 **Visual Representation**
-In a Venn diagram, the complement of $A$ is represented by the area of the universal set $U$ outside the circle representing $A$.
+![Complement of a set](https://lh3.googleusercontent.com/d/176wq9aHVbv0UH5DVbX5EoXO3F_Acab0g)
 
-### Summary
+## Summary
 
 - **Union ($A \cup B$)**: Combines all elements from two sets.
 - **Intersection ($A \cap B$)**: Captures elements common to both sets.
@@ -100,6 +100,7 @@ In a Venn diagram, the complement of $A$ is represented by the area of the unive
 
 These operations are the building blocks of set theory, providing a foundation for more complex mathematical concepts and applications.
 
+## Mind Map
 ![image](https://lh3.googleusercontent.com/d/1jj8i8Am41OK5pOpWjOJSLHw6s3pAneF8)
 
 ***in progress***
