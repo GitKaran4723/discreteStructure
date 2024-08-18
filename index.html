@@ -255,7 +255,7 @@
                 const allContents = document.querySelectorAll('.content');
                 allContents.forEach(el => el.style.display = 'none');
 
-                
+
                 content.style.display = 'block';
                 if (!markdownContent.innerHTML) {
                     loadMarkdown(collapsible.textContent, unitName, spinner, markdownContent);
@@ -269,7 +269,7 @@
             markdownContent.innerHTML = ''; // Clear any previous content
             try {
                 const url = `https://raw.githubusercontent.com/GitKaran4723/discreteStructure/main/notes/${unitName.replace(/ /g, '%20')}/${concept.replace(/ /g, '%20')}.md`;
-                
+
                 const response = await fetch(url);
 
                 if (response.status === 404) {
@@ -299,10 +299,13 @@
                 .replace(/'/g, "&#039;");
         }
 
-        function putcolors(text){
-            return text.replace('<red>',"<span class='red'>")
-                .replace('</red>',"</span>");
+        function putcolors(text) {
+            console.log(text); // Log the original text to the console
+            return text
+                .replace(/<red>/g, "<span class='red'>") // Replace <red> with <span class='red'>
+                .replace(/<\/red>/g, "</span>");         // Replace </red> with </span>
         }
+
 
         // Initialize syllabus on page load
         window.onload = createSyllabus;
