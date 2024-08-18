@@ -41,6 +41,18 @@
 
 These laws form the foundation of set theory and are used extensively in various fields, especially in computer science for logic design, database theory, and algorithms.
 
+## Examples:
+
+1. Prove **Commutative Laws**
+   - $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
+   - $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+
+2. Prove **De Morgan's Laws**  
+   - $\overline{A \cup B} = \overline{A} \cap \overline{B}$
+   - $\overline{A \cap B} = \overline{A} \cup \overline{B}$
+
+
+
 
 
 
