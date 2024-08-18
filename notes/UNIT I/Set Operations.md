@@ -13,7 +13,7 @@
 ## Binary Operations in Set Theory
 
 **Introduction**
-Binary operations are **fundamental concepts** in set theory that involve **two sets** and produce **another set**. These operations are essential in understanding **<blue>relationships between different sets</blue>**. The three most common binary operations in set theory are **union, intersection, and symmetric difference**. Each operation has a specific role in determining the elements that result from the combination of two sets.
+Binary operations are **fundamental concepts** in set theory that involve **two sets** and produce **another set**. These operations are essential in understanding **relationships between different sets**. The three most common binary operations in set theory are **union, intersection, and symmetric difference**. Each operation has a specific role in determining the elements that result from the combination of two sets.
 
 ## 1. Union (A ∪ B)
 
@@ -21,7 +21,7 @@ Binary operations are **fundamental concepts** in set theory that involve **two 
 The union of two sets $A$ and $B$ is a set that contains all elements that are either in $A$, in $B$, or in both. It represents the combination of the elements from both sets without duplication.
 
 **Mathematical Expression**  
-\[ A \cup B = \{ x \mid x \in A \text{ or } x \in B \} \]
+$$A \cup B = \\{ x \mid x \in A \text\\{ or \\} x \in B \\}$$
 
 **Example**  
 Let \( A = \{1, 2\} \) and \( B = \{2, 3\} \). Then the union of \( A \) and \( B \) is:
