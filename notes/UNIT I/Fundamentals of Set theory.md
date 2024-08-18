@@ -7,7 +7,7 @@ A **set** is a well-defined collection of distinct objects. The objects in a set
 ### Notations for a Set
 
 - **Curly Braces `{}`**: The elements of a set are enclosed within curly braces. For example, the set of natural numbers less than 5 is written as $\\{1, 2, 3, 4\\}$.
-- **Naming of a set**: A set is Usually denoted by a capital letter `A, B, ...`. For example, $ A = \\{1, 2, 3\\}$ where `A` is considered as a set.
+- **Naming of a set**: A set is Usually denoted by a capital letter `A, B, ...`. For example, $A = \\{1, 2, 3\\}$ where `A` is considered as a set.
 - **Elements of a set**: While denoting the element of the set we use small letters like `a, b, c, ...`. for example,  `A = {x | x is a natural number less than 4}`.
 
 ### Examples of Sets:
@@ -37,14 +37,10 @@ In the **set-builder form**, a set is defined by a property that its members mus
 Consider the quadratic equation $x^2 - 5x + 6 = 0$. We can solve this equation to find its roots.
 
 **Step 1: Solve the Quadratic Equation**
-$$
-x^2 - 5x + 6 = 0
-$$
+$$x^2 - 5x + 6 = 0$$
 
 This can be factored as:
-$$
-(x - 2)(x - 3) = 0
-$$
+$$(x - 2)(x - 3) = 0$$
 
 So, the solutions are $x = 2$ and $x = 3$.
 
