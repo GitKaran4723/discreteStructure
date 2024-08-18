@@ -195,7 +195,7 @@ Two sets are **equivalent** if they have the same number of elements, but not ne
 
 ## 10. Additional Symbols
 1. **|A|**: **Cardinality**
-   - Represents the number of elements in a set $A$. For example, if $A = \\{1, 2, 3\\}$, then $|A| = 3 $.
+   - Represents the number of elements in a set $A$. For example, if $A = \\{1, 2, 3\\}$, then $|A| = 3$.
 
 2. **℘(A)**: **Power Set**
    - The power set of $A$ is the set of all subsets of $A$. For example, if $A = \\{1, 2\\} $, then $℘(A) = \\{∅, \\{1\\}, \\{2\\}, \\{1, 2\\}\\}$.
@@ -220,6 +220,6 @@ These symbols form the foundation of set theory, and they are used extensively i
 
 ## Homework Exersise
 1. List all proper subsets of  `M = {a, b, c}`.
-2. For the universe `U = {1,2,3,4,5}` consider the set `A = {1,2}`. If `B = {x |` $x^2$ `U}`, Then write `B` in Roster form.
+2. For the universe `U = {1,2,3,4,5}` consider the set `A = {1,2}`. If $B = \\{x | x^2 U\\}$, Then write `B` in Roster form.
 
 --------------------------
