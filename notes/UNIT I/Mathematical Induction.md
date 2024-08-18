@@ -1,3 +1,3 @@
 ## To be updated
 
-<gold> This is gold color </gold>
+<blue> This is gold color </blue>
