@@ -4,20 +4,20 @@
    - $\overline{\overline{A}} = A$
 
 2. **De Morgan's Laws**
-   - <div style="overflow-x: auto; white-space: nowrap;">$\overline{A \cup B} = \overline{A} \cap \overline{B}$</div>
-   - <div style="overflow-x: auto; white-space: nowrap;">$\overline{A \cap B} = \overline{A} \cup \overline{B}$</div>
+   - $\overline{A \cup B}$ = $\overline{A} \cap \overline{B}$
+   - $\overline{A \cap B}$ = $\overline{A} \cup \overline{B}$
 
 3. **Commutative Laws**
    - $A \cup B = B \cup A$
    - $A \cap B = B \cap A$
 
 4. **Associative Laws**
-   - $A \cup (B \cup C) = (A \cup B) \cup C$
-   - $A \cap (B \cap C) = (A \cap B) \cap C$
+   - $A \cup (B \cup C)$ = $(A \cup B) \cup C$
+   - $A \cap (B \cap C)$ = $(A \cap B) \cap C$
 
 5. **Distributive Laws**
-   - $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
-   - $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+   - $A \cup (B \cap C)$ = $(A \cup B) \cap (A \cup C)$
+   - $A \cap (B \cup C)$ = $(A \cap B) \cup (A \cap C)$
 
 6. **Idempotent Laws**
    - $A \cup A = A$
@@ -44,12 +44,12 @@ These laws form the foundation of set theory and are used extensively in various
 ## Examples:
 
 1. Prove **Commutative Laws**
-   - $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
-   - $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+   - $A \cup (B \cap C)$ = $(A \cup B) \cap (A \cup C)$
+   - $A \cap (B \cup C)$ = $(A \cap B) \cup (A \cap C)$
 
 2. Prove **De Morgan's Laws**  
-   - $\overline{A \cup B} = \overline{A} \cap \overline{B}$
-   - $\overline{A \cap B} = \overline{A} \cup \overline{B}$
+   - $\overline{A \cup B}$ = $\overline{A} \cap \overline{B}$
+   - $\overline{A \cap B}$ = $\overline{A} \cup \overline{B}$
 
 
 
