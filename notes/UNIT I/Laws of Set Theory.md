@@ -1,6 +1,4 @@
-## Laws of Set theory
-
-Here are the laws of set theory shown in the image along with their names:
+# Laws of Set theory
 
 1. **Law of Double Complement**
    - $$\overline{\overline{A}} = A$$
@@ -42,5 +40,7 @@ Here are the laws of set theory shown in the image along with their names:
     - $$A \cap (A \cup B) = A$$
 
 These laws form the foundation of set theory and are used extensively in various fields, especially in computer science for logic design, database theory, and algorithms.
+
+
 
 

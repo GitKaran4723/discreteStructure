@@ -1,3 +1,5 @@
+# Set Operations
+
 ## Applications of Set operations in CS
 
 1. **Databases**: Combine and filter query results using operations like `UNION`, `INTERSECT`, and `EXCEPT`.
