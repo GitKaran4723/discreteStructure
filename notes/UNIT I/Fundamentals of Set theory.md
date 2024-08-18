@@ -49,53 +49,34 @@ So, the solutions are $x = 2$ and $x = 3$.
 To solve the quadratic equation, we first attempt to factor it. We look for two numbers that multiply to give the constant term $\(6\)$ (the last term in the equation) and add up to give $\(-5\)$ (the coefficient of the middle term).
 
 The factors of $\(6\)$ are $\(1 \times 6\)$ and $\(2 \times 3\)$. We need the factors to sum to $\(-5\)$, so we choose $\(-2\)$ and $\(-3\)$ since:
-$$
-(-2) + (-3) = -5
-$$
-$$
-(-2) \times (-3) = 6
-$$
+$$(-2) + (-3) = -5$$
+
+$$(-2) \times (-3) = 6$$
 
 Thus, we can write the equation as:
-$$
-x^2 - 5x + 6 = 0
-$$
+$$x^2 - 5x + 6 = 0$$
 
-$$
-\implies x^2 - 2x - 3x + 6 = 0
-$$
+$$\implies x^2 - 2x - 3x + 6 = 0$$
 
-$$
-\implies x ( x - 2 ) - 3 ( x - 2 ) = 0
-$$
+$$\implies x ( x - 2 ) - 3 ( x - 2 ) = 0$$
 
-$$
-\implies  ( x - 2 ) ( x - 3 ) = 0
-$$
+$$\implies  ( x - 2 ) ( x - 3 ) = 0$$
 
 Now, we solve for $\(x\)$ by setting each factor equal to zero:
-$$
-x - 2 = 0 \quad \text{or} \quad x - 3 = 0
-$$
+$$x - 2 = 0 \quad \text{or} \quad x - 3 = 0$$
 
 This gives us the solutions:
-$$
-x = 2 \quad \text{and} \quad x = 3
-$$
+$$x = 2 \quad \text{and} \quad x = 3$$
 
 ### Verification (Optional):
 
 To verify the solutions, substitute $\(x = 2\)$ and $\(x = 3\)$ back into the original equation:
 
 For $\(x = 2\)$:
-$$
-2^2 - 5(2) + 6 = 4 - 10 + 6 = 0
-$$
+$$2^2 - 5(2) + 6 = 4 - 10 + 6 = 0$$
 
 For $\(x = 3\)$:
-$$
-3^2 - 5(3) + 6 = 9 - 15 + 6 = 0
-$$
+$$3^2 - 5(3) + 6 = 9 - 15 + 6 = 0$$
 
 Both values satisfy the original equation, confirming that the solutions are correct.
 
@@ -109,9 +90,7 @@ Both values satisfy the original equation, confirming that the solutions are cor
 Consider the inequality $x^2 - 4x - 5 \leq 0$.
 
 **Step 1: Solve the Quadratic Inequality**
-$$
-x^2 - 4x - 5 = (x - 5)(x + 1)
-$$
+$$x^2 - 4x - 5 = (x - 5)(x + 1)$$
 This inequality can be solved by finding the intervals where the product is non-positive.
 
 The solutions are $x \in [-1, 5]$.
@@ -237,6 +216,6 @@ These symbols form the foundation of set theory, and they are used extensively i
 
 ## 12. Mind map
 
-![Fundamental Concepts](https://i.ibb.co/q0cNRB6/fundamentals-of-set-theory.png)
+![Fundamental Concepts](https://lh3.googleusercontent.com/d/1RGzU-5hHK0xJGb4McLV-RaNNhEa-QOTc)
 
 --------------------------
