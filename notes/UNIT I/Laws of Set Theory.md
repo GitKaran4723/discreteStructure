@@ -4,8 +4,8 @@
    - $\overline{\overline{A}} = A$
 
 2. **De Morgan's Laws**
-   - $\overline{A \cup B} = \overline{A} \cap \overline{B}$
-   - $\overline{A \cap B} = \overline{A} \cup \overline{B}$
+   - <div style="overflow-x: auto; white-space: nowrap;">$\overline{A \cup B} = \overline{A} \cap \overline{B}$</div>
+   - <div style="overflow-x: auto; white-space: nowrap;">$\overline{A \cap B} = \overline{A} \cup \overline{B}$</div>
 
 3. **Commutative Laws**
    - $A \cup B = B \cup A$
