@@ -21,11 +21,11 @@ Binary operations are **fundamental concepts** in set theory that involve **two 
 The union of two sets $A$ and $B$ is a set that contains all elements that are either in $A$, in $B$, or in both. It represents the combination of the elements from both sets without duplication.
 
 **Mathematical Expression**  
-$$A \cup B = \\{ x \mid x \in A \text\\{ or \\} x \in B \\}$$
+$$A \cup B = \\{ x \mid x \in A \text\{ or \} x \in B \\}$$
 
 **Example**  
-Let \( A = \{1, 2\} \) and \( B = \{2, 3\} \). Then the union of \( A \) and \( B \) is:
-\[ A \cup B = \{1, 2, 3\} \]
+Let $A = \\{1, 2\\}$ and $B = \\{2, 3\\}$. Then the union of $A$ and $B$ is:
+$$A \cup B = \\{1, 2, 3\\}$$
 
 **Visual Representation**
 If we visualize sets \( A \) and \( B \) as circles in a Venn diagram, the union is represented by the entire area covered by both circles.
