@@ -15,6 +15,8 @@ A **set** is a well-defined collection of distinct objects. The objects in a set
 - The set of vowels in the English alphabet: $V = \\{a, e, i, o, u \\}$
 - The set of solutions to the equation $x^2 - 4 = 0$ : $S = \\{-2, 2 \\}$
 
+[Watch Explaination](https://youtu.be/CL__DCn6XVk)
+
 ## 2. Types of Representations of a Set
 
 ### 2.1 Roster or Tabular Form
