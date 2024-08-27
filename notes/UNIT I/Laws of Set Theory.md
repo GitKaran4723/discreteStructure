@@ -94,6 +94,7 @@ To prove the identity $\overline{A \cup B} = \overline{A} \cap \overline{B}$, we
      $$
      
 This proves the identity using basic set theory principles.
+
 2. By drawing a **Venn Diagram**:
 Example: 
 
