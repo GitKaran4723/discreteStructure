@@ -98,6 +98,7 @@ This proves the identity using basic set theory principles.
 2. By drawing a **Venn Diagram**:
 Example: 
 
+
 3. By a **truth table**:
 Example: 
    
