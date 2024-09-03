@@ -51,6 +51,12 @@ These laws form the foundation of set theory and are used extensively in various
    - $\overline{A \cup B}$ = $\overline{A} \cap \overline{B}$
    - $\overline{A \cap B}$ = $\overline{A} \cup \overline{B}$
 
+3. Simplify the following
+   - $A \cap (B - A)$
+   - $(A \cap B) \cup (A \cap B \cap \overline{C} \cap D) \cup ( \overline{A} \cap B)$
+   - $(A - B) \cup (A \cap B)$
+   - $(\overline{A} \cup \overline{B} \cup (A \cap B \cap \overline{C}))$
+
 ### proving any law of the set theory
 1. By using **basic set theory principles**
 Example: 
