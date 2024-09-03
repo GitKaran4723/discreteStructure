@@ -51,7 +51,7 @@ These laws form the foundation of set theory and are used extensively in various
    - $\overline{A \cup B}$ = $\overline{A} \cap \overline{B}$
    - $\overline{A \cap B}$ = $\overline{A} \cup \overline{B}$
 
-### There are 3 ways of proving any law of the set theory
+### proving any law of the set theory
 1. By using **basic set theory principles**
 Example: 
 To prove the identity $\overline{A \cup B} = \overline{A} \cap \overline{B}$, we can use a method called the **algebraic proof** or **set-theoretic proof**.
@@ -94,14 +94,6 @@ To prove the identity $\overline{A \cup B} = \overline{A} \cap \overline{B}$, we
      $$
      
 This proves the identity using basic set theory principles.
-
-2. By drawing a **Venn Diagram**:
-Example: 
-
-
-3. By a **truth table**:
-Example: 
-   
 
 ## Duality in Set Theory
 
