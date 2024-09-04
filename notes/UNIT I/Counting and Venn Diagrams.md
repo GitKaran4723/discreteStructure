@@ -78,14 +78,14 @@ in such case counting formula of union of 3 sets i.e. $|A \cup B \cup C|$ = $|A|
 following are the two sample examples for the given problem
 
 1. In a BCA sem 1 Class, there are 60 students, 30 students like C++, 25 students like Java and 10 students like both, then answer the following questions
-- How many students like atleast one programming language
-- How many likes atmost one programming language
-- How many students like no programming language
+   - How many students like atleast one programming language
+   - How many likes atmost one programming language
+   - How many students like no programming language
 
 2. There are 100 machines 23 of the machines have D1 defect, 26 of them have D2 defect 30 of them have D3 defect, 7 have D1 and D2 defect, 8 having D1 and D3 defects, 10 having D2 and D3 defects and 3 having all the three defects
-- How many machines have atleast one of the defect
-- How many machines have exactly two defects
-- How many machines have exactly one defect  
+   - How many machines have atleast one of the defect
+   - How many machines have exactly two defects
+   - How many machines have exactly one defect  
 
 
 
