@@ -34,7 +34,7 @@ As shown in the following venn diagram
 
 ![Counting Complement](https://lh3.googleusercontent.com/d/1-1tMg802c8qXefm_a440zkcGeBjoC9vI)
 
-$\implies | \overline{A} | = | U | + | A |$
+$\implies | \overline{A} | = | U | - | A |$
 
 to find the number of elements in $ \overline{A} $ we need to subtract $A$ from $U$.
 
