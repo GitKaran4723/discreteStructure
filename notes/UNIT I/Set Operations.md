@@ -108,8 +108,7 @@ These operations are the building blocks of set theory, providing a foundation f
 ![image](https://lh3.googleusercontent.com/d/1jj8i8Am41OK5pOpWjOJSLHw6s3pAneF8)
 
 ## Exersises
-1. 
-
+1. Find $A \cap B$ and set difference $A - B$ if $A = \\{1, 3, 5, 7, 9\\}$ and $B = \\{2, 3, 4, 5, 6, 8\\}$ 
 ---
 
 
