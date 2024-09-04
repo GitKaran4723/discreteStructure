@@ -58,12 +58,12 @@ Consider the following venn diagram for set $A, B$ and $U$
 
 ![Non disjoint sets](https://lh3.googleusercontent.com/d/1b50YR6FWtgRSpGX9VWvGf69YuYPaxvWM)
 
-In the above given case we have $| A \cap B | \NotEqual \emptyset$
-$\implies$  $|A \cap B| \NotEqual 0$
+In the above given case we have $| A \cap B | \neq \emptyset$
+$\implies$  $|A \cap B| \neq 0$
 
 for example,
 $U = \\{1, 2, 3, 4, 5, 6\\}$ , $A = \\{1, 2, 3, 4, 5\\}$ and $B = \\{4, 5, 6\\}$
-in this example we have $A \cap B$ = $\\{4, 5\\} \NotEqual \emptyset$
+in this example we have $A \cap B$ = $\\{4, 5\\} \not = \emptyset$
 
 Thus we have $| A \cup B |$ = $|A| + |B| - |A \cap B|$
 
