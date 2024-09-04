@@ -69,7 +69,7 @@ Thus we have $| A \cup B |$ = $|A| + |B| - |A \cap B|$
 
 ### When there is involvement of 3 sets 
 
-Consider the sets $A$, $B$, $C$ $\subset$ $U$ as given in the following venn diagram
+Consider the sets $A$, $B$, $C$ $\subseteq$ $U$ as given in the following venn diagram
 
 ![Union of three sets](https://lh3.googleusercontent.com/d/1PJfo6vVKXXpfDv6CsUbHX58Z3MpiaLug)
 

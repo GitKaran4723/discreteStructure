@@ -86,7 +86,7 @@ Both values satisfy the original equation, confirming that the solutions are cor
 **Step 2: Represent the Solution Set in Roster and Set-Builder Forms**
 
 - **Roster Form:** $S = \\{2, 3\\}$
-- **Set-Builder Form:** $S = \\{x \mid x^2 - 5x + 6 = 0\\}$
+- **Set-Builder Form:** $S = \\{x \mid x \in R$ and $x^2 - 5x + 6 = 0\\}$
 
 ### Example 2: Set of Real Numbers Satisfying a Quadratic Inequality
 Consider the inequality $x^2 - 4x - 5 \leq 0$.

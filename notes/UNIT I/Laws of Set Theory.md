@@ -125,6 +125,13 @@ This proves the identity using basic set theory principles.
    - **Dual Statement (sᵈ):**
      - The dual of $A \cap \emptyset = \emptyset$ is $A \cup U = U$.
 
+### Exersise
+1. Write the dual of $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+2. 
+
+
+
+
 
 
 
