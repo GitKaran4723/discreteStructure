@@ -58,7 +58,7 @@ Consider the following venn diagram for set $A, B$ and $U$
 
 ![Non disjoint sets](https://lh3.googleusercontent.com/d/1b50YR6FWtgRSpGX9VWvGf69YuYPaxvWM)
 
-In the above given case we have $| A \cap B | \neq \emptyset$
+In the above given case we have $A \cap B \neq \emptyset$
 $\implies$  $|A \cap B| \neq 0$
 
 for example,
