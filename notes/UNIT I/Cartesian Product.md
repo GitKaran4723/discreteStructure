@@ -54,7 +54,7 @@ $$
 
 4. Let $C = \\{a, b, c\\}$ and $D = \\{x | x \text{is a prime number less then 10} \\}$ then find $C \times D$ and $D \times C$
 
-5. Let $A = \\{x | x \in W \And x \lt 2\\}$, $B = \\{x | x \in N \And 1 \lt x \leq 4\\}$ and $C = \\{3, 5\\}$ verify that,
+5. Let $A = \\{x | x \in W  \And  x \lt 2\\}$, $B = \\{x | x \in N  \And  1 \lt x \leq 4\\}$ and $C = \\{3, 5\\}$ verify that,
    1. $A \times (B \cup C)$ = $(A \times B) \cup (A \times C)$
    2. $(A \cup B) \times C$ = $(A \times C) \cup (B \times C)$
 
