@@ -1,7 +1,5 @@
 ## Cartesian Product 
 
-Definition
-
 The **Cartesian product** of two sets  $A$ and $B$ is the set of all ordered pairs where the first element belongs to set $A$ and the second element belongs to set $B$. The Cartesian product is denoted by $A \times B$, and can be formally written as:
 
 $$
@@ -47,7 +45,7 @@ $$
    2. $B \times A$
    3. $B \times B$
 
-2. If $A \times B$ = $\\{(a,1),(a,2),(a,3),(b,1),(b,2),(b,3)\\}$ then find A and B
+2. If $A \times B$ = $\\{(a,1), (a,2), (a,3),$ $(b,1), (b,2), (b,3)\\}$ then find A and B
 
 3. If $A = \\{m, n\\}$ and $B = \emptyset$ then find
    1. $A \times B$
