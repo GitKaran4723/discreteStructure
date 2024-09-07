@@ -8,17 +8,15 @@
 
 ### 2. **Universal Relation**
    - **Definition**: A universal relation on a set $A$ is a relation in which every element of $A$ is related to every element of $A$, including itself. It contains all possible ordered pairs.
-   - **Notation**: $R = A \times A$, where $R$ includes all pairs from the Cartesian product of $A$.
+   - **Notation**: $R = A \times A$
    - **Example**: Let $A = \\{1, 2, 3\\}$. The universal relation on $A$ is:  
      $R = \\{(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (2, 3), (3, 1), (3, 2), (3, 3)\\}$.
-   - **Key Point**: The universal relation is always reflexive, symmetric, and transitive, but not antisymmetric.
 
 ---
 
 ### 3. **Reflexive Relation**
    - **Definition**: A relation $R$ on a set $A$ is called reflexive if every element of $A$ is related to itself. This means $(a, a) \in R$ for every $a \in A$.
    - **Example**: Let $A = \\{1, 2, 3\\}$. The relation $R = \\{(1, 1), (2, 2), (3, 3)\\}$ is reflexive because each element is related to itself.
-   - **Key Point**: For any reflexive relation, if $A$ has $n$ elements, the relation must include $n$ pairs of the form $(a, a)$.
 
 ---
 
@@ -65,7 +63,6 @@
    - Is this relation symmetric?
    - Is this relation antisymmetric?
    - Is this relation transitive?
-
 
 2. **Check if a Relation is Partial Order**  
    Consider the relation $R$ on $A = \{1, 2, 3\}$ defined as:  
