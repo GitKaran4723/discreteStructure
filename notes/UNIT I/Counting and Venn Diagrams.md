@@ -67,6 +67,10 @@ in this example we have $A \cap B$ = $\\{4, 5\\} \not = \emptyset$
 
 Thus we have $| A \cup B |$ = $|A| + |B| - |A \cap B|$
 
+If A and B are any two finite sets. then,
+1. $|A - B| = |A| - |A \cap B|$
+2. $|B - A| = |B| - |A \cap B|$
+
 ### When there is involvement of 3 sets 
 
 Consider the sets $A$, $B$, $C$ $\subseteq$ $U$ as given in the following venn diagram
