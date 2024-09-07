@@ -6,34 +6,34 @@ For sets $A$ and $B$ any subset of $A \times B$ is called a (binary) relation fr
 ## Domain and Range of relations
 *Definition* :
 Let $A$ and $B$ be any two non - empty sets and $R$ be a relation from $A$ to $B$ i.e. $R \subseteq A \times B$, if $(a, b) \in R$
-    - *Domain of R* is defined as the collection of all the first elements of the ordered pair $(a, b) \in R$
+    - **Domain of R** is defined as the collection of all the first elements of the ordered pair $(a, b) \in R$
 $$
 Domain of R = \\{a \in A | (a, b) \in R\\}
 $$
-    - *Range of R* is defined as the collection of all second elements of the ordered pair $(a, b) \in R$
+    - **Range of R** is defined as the collection of all second elements of the ordered pair $(a, b) \in R$
 $$
-Domain of R = \\{b \in B | (a, b) \in R\\}
+\text{Domain of R} = \\{b \in B | (a, b) \in R\\}
 $$
 
 ### Example
 Let $A = \\{1, 2, 3, 4\\}$, Relation on A is defined as $(x ,y) \in R$ if $x \lt y$. Write the relation $R$ and the *Domain and Range of R*
 
-*Solution*:
+**Solution**:
 Given: $A = \\{1, 2, 3, 4\\}$ and relation $R$ where $(x, y) \in R$ if $x < y$.
 
-*Relation $R$:*
+**Relation $R$:**
 $$
 R = \\{ (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4) \\}
 $$
 
-*Domain:*
+**Domain:**
 $$
 \\{ 1, 2, 3 \\}
 $$
 
-*Range:*
+**Range:**
 $$
-\{ 2, 3, 4 \}
+\\{ 2, 3, 4 \\}
 $$
 
 ## Complement of a Relation
@@ -41,12 +41,12 @@ $$
 Consider a relation $R$ from set $A$ to set $B$. The complement of relation $R$, denoted as $\bar{R}$,  is defined as:
 
 $$
-\bar{R} = \{ (a, b) | (a, b) \notin r \}
+\bar{R} = \{ (a, b) | (a, b) \notin R \}
 $$
 That is, $\bar{R}$ includes all ordered pairs from $A \times B$ that do not belong to $R$. Formally:
 
 $$
-\bar{R} = (A \times B) \setminus r
+\bar{R} = (A \times B) \setminus R
 $$
 
 ### Example:
@@ -142,6 +142,3 @@ In the graph form, each element of $A$ is represented by a vertex. We draw direc
 - Directed edges from 3 to 1 and 3 to 2.
 
 ---
-
-These are the six different ways of representing the given relation.
-
