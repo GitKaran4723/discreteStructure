@@ -118,8 +118,8 @@ For the set $A = \\{1, 2, 3\\}$, the matrix is:
 $$
 M_R =
 \begin{pmatrix}
-0 & 0 & 0 \\
-1 & 0 & 0 \\
+0 & 0 & 0 <br>
+1 & 0 & 0 <br>
 1 & 1 & 0
 \end{pmatrix}
 $$
