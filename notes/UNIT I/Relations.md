@@ -105,6 +105,8 @@ $$
 ### 3. **By Arrow Diagram**:
 In this representation, we draw arrows from each element of set $A$ to another element if the relation holds (i.e., if $a > b$):
 
+![Arrow Diagram](https://lh3.googleusercontent.com/d/1TtynjLc43tLc531_pLd41cCcaQvdzPzf)
+
 - Arrows from 2 to 1.
 - Arrows from 3 to 1 and 3 to 2.
 
@@ -115,14 +117,8 @@ In matrix form, the relation is represented by a binary matrix $M$, where $M[i][
 
 For the set $A = \\{1, 2, 3\\}$, the matrix is:
 
-$$
-M_R =
-\begin{pmatrix}
-0 & 0 & 0 <br>
-1 & 0 & 0 <br>
-1 & 1 & 0
-\end{pmatrix}
-$$
+![Matrix Representation](https://lh3.googleusercontent.com/d/1ok0kAd0MR6cA1Okt2wCWJLg-9Z5tVvzx)
+
 - Row represents the first element.
 - Column represents the second element.
 
@@ -132,14 +128,16 @@ $$
 We plot the relation as points on the coordinate plane, where the x-axis represents the first element, and the y-axis represents the second element.
 
 The ordered pairs $(2, 1), (3, 1), (3, 2)$ will be represented as points:
-$$
-(2, 1), (3, 1), (3, 2)
-$$
+
+![In cartetian graph](https://lh3.googleusercontent.com/d/1mmpa2Vr0YL6P8Y2c8V-M20pSYFUq9c4z)
 
 ---
 
 ### 6. **By Graph Form**:
 In the graph form, each element of $A$ is represented by a vertex. We draw directed edges between vertices based on the relation:
+
+![by graph representation](https://lh3.googleusercontent.com/d/1j9G-n76RTJh_rdDeB7YlcRbvoOvxmkjk)
+
 - A directed edge from 2 to 1.
 - Directed edges from 3 to 1 and 3 to 2.
 
