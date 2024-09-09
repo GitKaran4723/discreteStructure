@@ -36,7 +36,7 @@ $$
 3. $A \times B \neq B \times A$
 4. The number of elements in $A \times B$ is given by $|A \times B|$ 
 5. $|A \times B| = |B \times A|$ = $|A| * |B|$
-6. If A is infinite and B is infinite then $A \times B$ is infinite
+6. If A is infinite set or B is infinite set then $A \times B$ is infinite
 
 ## Exersises
 
