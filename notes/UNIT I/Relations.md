@@ -5,14 +5,14 @@ For sets $A$ and $B$ any subset of $A \times B$ is called a (binary) relation fr
 
 ## Domain and Range of relations
 *Definition* :
-Let $A$ and $B$ be any two non - empty sets and $R$ be a relation from $A$ to $B$ i.e. $R \subseteq A \times B$, if $(a, b) \in R$
-    - **Domain of R** is defined as the collection of all the first elements of the ordered pair $(a, b) \in R$
+Let $A$ and $B$ be any two non - empty sets and $R$ be a relation from $A$ to $B$ i.e. $R \subseteq A \times B$, if $(a, b) \in R$ 
+ - **Domain of R** is defined as the collection of all the first elements of the ordered pair $(a, b) \in R$
 $$
-Domain of R = \\{a \in A | (a, b) \in R\\}
+\text{Domain of R} = \\{a \in A | (a, b) \in R\\}
 $$
-    - **Range of R** is defined as the collection of all second elements of the ordered pair $(a, b) \in R$
+ - **Range of R** is defined as the collection of all second elements of the ordered pair $(a, b) \in R$
 $$
-\text{Domain of R} = \\{b \in B | (a, b) \in R\\}
+\text{Range of R} = \\{b \in B | (a, b) \in R\\}
 $$
 
 ### Example
