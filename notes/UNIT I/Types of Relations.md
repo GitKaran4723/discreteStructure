@@ -42,16 +42,14 @@
 ---
 
 ### 7. **Equivalence Relation**
-   - **Definition**: A relation $R$ on a set $A$ is called an equivalence relation if it is **reflexive**, **symmetric**, and **transitive**. Equivalence relations partition a set into equivalence classes.
+   - **Definition**: A relation $R$ on a set $A$ is called an equivalence relation if it is **reflexive**, **symmetric**, and **transitive**. 
    - **Example**: The "is equal to" relation $=$ is an equivalence relation because it is reflexive, symmetric, and transitive.
-   - **Key Point**: Equivalence relations help in categorizing elements into classes where each element is "equivalent" to the others in the class. For example, "having the same remainder when divided by 3" is an equivalence relation on integers.
 
 ---
 
 ### 8. **Partial Order Relation**
    - **Definition**: A relation $R$ on a set $A$ is called a partial order if it is **reflexive**, **antisymmetric**, and **transitive**. Partial orders help in arranging elements in a structured way, though not all elements may be comparable.
    - **Example**: The "less than or equal to" ($\leq$) relation on the set of real numbers is a partial order because it satisfies all three properties.
-   - **Key Point**: A partial order allows for a hierarchical structure, but it may leave some elements incomparable (i.e., there may be no relationship between certain elements).
 
 ---
 
