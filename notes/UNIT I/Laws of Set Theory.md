@@ -57,6 +57,8 @@ These laws form the foundation of set theory and are used extensively in various
    - $(A - B) \cup (A \cap B)$
    - $(\overline{A} \cup \overline{B} \cup (A \cap B \cap \overline{C}))$
 
+[Solutions of example 3.1, 3.2 and 3.3](https://youtu.be/YB4vDSC-I4o)
+
 ### proving any law of the set theory
 1. By using **basic set theory principles**
 Example: 
@@ -127,7 +129,6 @@ This proves the identity using basic set theory principles.
 
 ### Exersise
 1. Write the dual of $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
-2. 
 
 
 
