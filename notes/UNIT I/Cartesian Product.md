@@ -1,6 +1,7 @@
 ## Cartesian Product 
 
-[Video Explaination](https://youtu.be/pw3hJ9ufBf0)
+[Video Explaination of the concept](https://youtu.be/pw3hJ9ufBf0)
+
 The **Cartesian product** of two sets  $A$ and $B$ is the set of all ordered pairs where the first element belongs to set $A$ and the second element belongs to set $B$. The Cartesian product is denoted by $A \times B$, and can be formally written as:
 
 $$
