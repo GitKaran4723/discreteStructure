@@ -46,7 +46,7 @@ $$
 That is, $\bar{R}$ includes all ordered pairs from $A \times B$ that do not belong to $R$. Formally:
 
 $$
-\bar{R} = (A \times B) \setminus R
+\bar{R} = (A \times B) - R
 $$
 
 ### Example:
